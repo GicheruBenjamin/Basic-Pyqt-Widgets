@@ -1,11 +1,11 @@
-## Intro
+# Intro
 Pyqt is a python framework for building GUI applications.In this repo. I share basic widgets in pyqt. Qt is a binding from c++ to python. Owned by the Qt Company.
 
-## Important Python concepts to understand 
+### Important Python concepts to understand 
 Classes and functions
 Python code modules
 
-## QWidget Class 
+# QWidget Class 
 It gives you a base class for all widgets.
 All widgets inherit from QWidget class.
 ## Properties 
@@ -31,7 +31,7 @@ setFocusPolicy(Qt.FocusPolicy policy): Determines how the widget receives focus 
 Window System Integration Properties (for top-level widgets):
 setWindowFlags(Qt.WindowFlags flags): Sets window-specific behavior (resizable, closable, modal, etc.).
 setWindowTitle(str title): Sets the title displayed in the window's title bar.
-## Note ::Additional Methods:
+### Note ::Additional Methods:
 show(): Shows the widget on the screen.
 hide(): Hides the widget.
 close(): Closes the widget (if it's a top-level window).
@@ -40,22 +40,22 @@ update(): Requests the widget to repaint itself.
 ## QApplication class 
 The QApplication class in PyQt is the foundation of your graphical user interface (GUI) application. It's the central hub that manages the application's lifecycle, event loop, and various system-wide settings. 
 
-## Key properties of QApplication:
+### Key properties of QApplication:
 1. Application Initialization: It handles the initialization of your PyQt application, setting up the connection to the window system (e.g., Windows, macOS, Linux).
 2. Event Loop: It provides the event loop that continuously listens for user interactions (mouse clicks, keyboard events, etc.) and dispatches those events to the appropriate widgets within your application. This ensures your application remains responsive and reacts to user actions.
 3. Session Management: It manages the application session, which includes handling application-wide settings, resources, and the lifetime of your application windows.
 4. Global Access: It provides access to some system-wide properties like the desktop palette, screen resolution, and font handling.
 
-## Ways to style a widget.
-*Using the Style Sheet(QSS)* :
+### Ways to style a widget.
+## Using the Style Sheet(QSS)* :
 QSS provides a powerful and flexible way to customize the appearance of your widgets using CSS-like syntax.
 You can define styles for different widget types, states (hover, pressed), and even individual widgets with unique identifiers.
-..* Benefits:
+### Benefits:
 Granular control over various aspects like fonts, colors, backgrounds, borders, margins, padding, etc.
 Reusability: Create stylesheets that can be applied to multiple widgets across your application.
 Readability: Style definitions are separate from your Python code, making it easier to maintain.
 
-## Starting the application
+# Starting the application
 1. Use sys.
 2. Get the widgets u wanna use. 
 3. Create an app.
