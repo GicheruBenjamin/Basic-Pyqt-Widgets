@@ -2,8 +2,8 @@
 Pyqt is a python framework for building GUI applications.In this repo. I share basic widgets in pyqt. Qt is a binding from c++ to python. Owned by the Qt Company.
 
 ### Important Python concepts to understand 
-Classes and functions
-Python code modules
+_**Classes and functions**_
+_**Python code modules**_
 
 # QWidget Class 
 It gives you a base class for all widgets.
