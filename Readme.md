@@ -62,3 +62,46 @@ Readability: Style definitions are separate from your Python code, making it eas
 4. Create a window(Mainwindow or Qwidget).
 5. Show the window.
 6. Start the event loop.
+
+
+# Basic Widgets
+
+1. QLabel: This widget is used to display text or images. It can be used to provide instructions, display messages, or show images.
+
+2. QLineEdit: This widget is used to enter a single line of text. It can be used for entering usernames, passwords, or other short text inputs.
+
+3. QTextEdit: This widget is used to enter multiple lines of text. It can be used for entering longer text inputs, such as comments or descriptions.
+
+4. QPushButton: This widget is used to trigger an action when clicked. It can be used to submit forms, open dialogs, or perform other actions.
+
+5. QCheckBox: This widget is used to select or deselect an option. It can be used to enable or disable features, or to select multiple options.
+
+6. QRadioButton: This widget is used to select one option from a group of options. It can be used to select a single option from a set of mutually exclusive options.
+
+7. QComboBox: This widget is used to select an option from a drop-down list. It can be used to select a single option from a list of options.
+
+8. QSpinBox: This widget is used to select a number within a range. It can be used to select a quantity, a date, or a time.
+
+9. QSlider: This widget is used to select a value within a range by sliding a handle. It can be used to adjust volume, brightness, or other continuous values.
+
+10. QProgressBar: This widget is used to display the progress of an operation. It can be used to show the progress of a download, an upload, or a calculation.
+
+11. QTabWidget: This widget is used to display multiple pages of content in a tabbed interface. It can be used to organize content into categories or sections.
+
+12. QListWidget: This widget is used to display a list of items that can be selected. It can be used to display a list of files, a list of contacts, or a list of options.
+
+13. QTableWidget: This widget is used to display a table of items that can be selected. It can be used to display a table of data, a spreadsheet, or a grid of options.
+
+14. QTreeWidget: This widget is used to display a tree of items that can be expanded and collapsed. It can be used to display a file system, a hierarchy of options, or a list of categories and subcategories.
+
+15. QDial: This widget is used to select a value within a range by rotating a dial. It can be used to adjust volume, brightness, or other continuous values.
+
+16. QMenuBar: This widget is used to display a menu bar at the top of a window. It can be used to organize actions into categories, such as File, Edit, and View.
+
+17. QMenu: This widget is used to display a menu of actions. It can be used to display a list of options, such as Open, Save, and Quit.
+
+18. QAction: This widget is used to represent an action that can be triggered by the user. It can be used to perform an action, such as opening a file or saving a document.
+
+19. QToolBar: This widget is used to display a toolbar of buttons and other widgets. It can be used to provide quick access to frequently used actions.
+
+20. QStatusBar: This widget is used to display a status bar at the bottom of a window. It can be used to display messages, such as the progress of an operation or the status of a connection.
