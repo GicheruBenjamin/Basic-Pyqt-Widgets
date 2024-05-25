@@ -45,3 +45,11 @@ The QApplication class in PyQt is the foundation of your graphical user interfac
 2. Event Loop: It provides the event loop that continuously listens for user interactions (mouse clicks, keyboard events, etc.) and dispatches those events to the appropriate widgets within your application. This ensures your application remains responsive and reacts to user actions.
 3. Session Management: It manages the application session, which includes handling application-wide settings, resources, and the lifetime of your application windows.
 4. Global Access: It provides access to some system-wide properties like the desktop palette, screen resolution, and font handling.
+
+## Starting the application
+1. Use sys.
+2. Get the widgets u wanna use. 
+3. Create an app.
+4. Create a window(Mainwindow or Qwidget).
+5. Show the window.
+6. Start the event loop.
