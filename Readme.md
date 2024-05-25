@@ -46,6 +46,15 @@ The QApplication class in PyQt is the foundation of your graphical user interfac
 3. Session Management: It manages the application session, which includes handling application-wide settings, resources, and the lifetime of your application windows.
 4. Global Access: It provides access to some system-wide properties like the desktop palette, screen resolution, and font handling.
 
+## Ways to style a widget.
+0.  Using the Style Sheet(QSS):
+QSS provides a powerful and flexible way to customize the appearance of your widgets using CSS-like syntax.
+You can define styles for different widget types, states (hover, pressed), and even individual widgets with unique identifiers.
+ Benefits:
+Granular control over various aspects like fonts, colors, backgrounds, borders, margins, padding, etc.
+Reusability: Create stylesheets that can be applied to multiple widgets across your application.
+Readability: Style definitions are separate from your Python code, making it easier to maintain.
+
 ## Starting the application
 1. Use sys.
 2. Get the widgets u wanna use. 
