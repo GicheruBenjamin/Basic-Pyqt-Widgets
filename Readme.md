@@ -50,7 +50,7 @@ The QApplication class in PyQt is the foundation of your graphical user interfac
 *Using the Style Sheet(QSS)* :
 QSS provides a powerful and flexible way to customize the appearance of your widgets using CSS-like syntax.
 You can define styles for different widget types, states (hover, pressed), and even individual widgets with unique identifiers.
- ..* Benefits:
+..* Benefits:
 Granular control over various aspects like fonts, colors, backgrounds, borders, margins, padding, etc.
 Reusability: Create stylesheets that can be applied to multiple widgets across your application.
 Readability: Style definitions are separate from your Python code, making it easier to maintain.
